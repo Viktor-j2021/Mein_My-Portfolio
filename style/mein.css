@@ -10,7 +10,7 @@
   padding-top: 50vh;
   overflow: hidden;
   text-align: center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("/images/Bild_1.jpg") 50% 50%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("../images/Bild_1.jpg") 50% 50%;
   background-size: cover;
   position: relative;
 }
@@ -339,7 +339,7 @@
 .erfahrung__bio-image {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("./../images/Bild_1.jpg") 50% 50%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/Bild_1.jpg") 50% 50%;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -471,7 +471,7 @@
 .projekat__bio-image {
   height: 40vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("images/Bild_1.jpg") 55% 45%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/Bild_1.jpg") 55% 45%;
   background-size: cover;
   display: flex;
   flex-direction: column;
