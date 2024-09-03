@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einfache Fotogalerie</title>
+    <link rel="stylesheet" href="../style/mein.css"> <!-- Veza ka spoljašnjem CSS fajlu -->
+</head>
+
+<body class="body">
+    <!-- Div za promenu jezika -->
+    <div class="portfolio">
+        <button id="languageSwitch" data-translate="button"><a href=""> Wechsel zu Englisch</a></button>
+        <!-- Dugme za promenu jezika -->
+    </div>
+    <div class="portfolio_zurück">
+        <button id="languageSwitch_zurück"><a href="../maineProjekte.html">Zurück zu Portfolio</a></button>
+        <!-- Dugme za promenu jezika -->
+    </div>
+
+    <!-- Naslov stranice -->
+    <h2 class="beschreibung">Einfache Fotogalerie</h2>
+
+    <!-- Slider sa slikama -->
+    <div class="slider-wrapper">
+        <div class="slider-images">
+            <img src="../images/img_projekt/projekt_4.jpg" alt="Projekt Bild 1">
+            <img src="../images/img_projekt/projekt_4-1.jpg" alt="Projekt Bild 2">
+            <img src="../images/img_projekt/projekt_4-2.jpg" alt="Projekt Bild 3">
+            <img src="../images/img_projekt/projekt_4-3.jpg" alt="Projekt Bild 4">
+
+        </div>
+        <button id="left-btn">
+            <div class="arrow"></div> <!-- Dugme za kretanje ulevo -->
+        </button>
+        <button id="right-btn">
+            <div class="arrow"></div> <!-- Dugme za kretanje udesno -->
+        </button>
+    </div>
+
+    <!-- Opis slajdera -->
+    <div class="slider-text">
+        <h2 class="beschreibung_title">Titel der Beschreibung</h2>
+        <p id="content">
+            Auf dem ersten Bild der Fotogalerie haben wir eine Galerie mit einem Hintergrundbild, auf dem drei
+            verschiedene Bilder angezeigt werden. Wenn man auf eines der Bilder klickt, wird es im Vollbildmodus
+            angezeigt.
+            <br><br>
+            Auf dem zweiten Bild sehen wir ein Bild im Vollbildmodus. Hier gibt es Pfeile, mit denen man die Bilder nach
+            links oder rechts scrollen kann, ohne den Vollbildmodus verlassen zu müssen. So kann man direkt aus dem
+            Vollbildmodus heraus zu einem anderen Bild wechseln, wie auf dem zweiten und dritten Bild zu sehen ist.
+            <br><br>
+            Wenn man im Vollbildmodus doppelt schnell auf das Bild klickt, wird es weiter herangezoomt, und beim
+            nächsten doppelten Klick wird es wieder verkleinert.
+            <br><br>
+            Dieses Projekt wurde mit Flutter entwickelt.
+        </p>
+    </div>
+
+    <!-- Link ka spoljašnjem JavaScript fajlu -->
+    <script src="../script/projektgalerie/projektgalerie4.js"></script>
+</body>
+
+</html>

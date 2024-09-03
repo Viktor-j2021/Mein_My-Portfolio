@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Vue3_Cli-Projekt 3D</title>
+    <link rel="stylesheet" href="../style/mein.css"> <!-- Veza ka spoljašnjem CSS fajlu -->
+</head>
+
+<body class="body">
+    <!-- Div za promenu jezika -->
+    <div class="portfolio">
+        <button id="languageSwitch" data-translate="button"><a href=""> Wechsel zu Englisch</a></button>
+        <!-- Dugme za promenu jezika -->
+    </div>
+    <div class="portfolio_zurück">
+        <button id="languageSwitch_zurück"><a href="../maineProjekte.html">Zurück zu Portfolio</a></button>
+        <!-- Dugme za promenu jezika -->
+    </div>
+
+    <!-- Naslov stranice -->
+    <h2 class="beschreibung">Mein Vue3_Cli-Projekt 3D</h2>
+
+    <!-- Slider sa slikama -->
+    <div class="slider-wrapper">
+        <div class="slider-images">
+            <img src="../images/img_projekt/projekt_5.png" alt="Projekt Bild 1">
+            <img src="../images/img_projekt/projekt_5-1.png" alt="Projekt Bild 2">
+            <img src="../images/img_projekt/projekt_5-2.png" alt="Projekt Bild 3">
+            <img src="../images/img_projekt/projekt_5-3.png" alt="Projekt Bild 4">
+            <img src="../images/img_projekt/projekt_5-4.png" alt="Projekt Bild 5">
+        </div>
+        <button id="left-btn">
+            <div class="arrow"></div> <!-- Dugme za kretanje ulevo -->
+        </button>
+        <button id="right-btn">
+            <div class="arrow"></div> <!-- Dugme za kretanje udesno -->
+        </button>
+    </div>
+
+    <!-- Opis slajdera -->
+    <div class="slider-text">
+        <h2 class="beschreibung_title">Titel der Beschreibung</h2>
+        <p id="content">
+            Auf dem ersten Bild sehen wir zwei 3D-Modelle. Wenn man auf eines von ihnen klickt, öffnet sich das Modell
+            im Vollbildmodus, wo wir es rotieren können.
+            <br><br>
+            Auf dem zweiten Bild sehen wir das erste Modell, bei dem es einen separaten Hintergrund und ein rotierendes
+            Modell gibt. Dies wird auf dem dritten Bild dargestellt, das zeigt, wie sich das 3D-Modell dreht.
+            <br><br>
+            Durch einen Klick auf das Home-3D-Modell kehren wir zurück zu unserer Startseite oder zum ersten Bild. Auf
+            der Startseite gelangen wir durch einen Klick auf das zweite Bild zum zweiten 3D-Modell
+            <br><br>
+            Bei dem zweiten Bild haben wir einen anderen Hintergrund und ein rotierendes Modell sehen, was durch das
+            fünfte Bild bestätigt wird. Die Modelle können durch Klicken und Halten der Maustaste bewegt und rotiert
+            werden. Die Modelle können auch direkt gezoomt und rotiert werden..
+            <br><br>
+            Dieses Projekt wurde mit Vue3.js-CLI erstellt.
+        </p>
+    </div>
+
+    <!-- Link ka spoljašnjem JavaScript fajlu -->
+    <script src="../script/projektgalerie/projektgalerie5.js"></script>
+</body>
+
+</html>
